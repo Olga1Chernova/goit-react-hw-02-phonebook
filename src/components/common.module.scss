@@ -16,11 +16,16 @@
     border: 1px solid black;
 }
 
+.contacts__wrapper{
+    display: inline-flex;
+    flex-direction: column;
+}
+
 .form__label,
 .contacts__label
 {
     font-size: 24px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .form__input,
@@ -29,8 +34,14 @@
     border: 1px solid darkblue;
     border-radius: 20px;
     width: 240px;
-    height: 20px;
+    height: 40px;
     margin-bottom: 24px;
+    font-size: 20px;
+    padding: 5px 15px 5px;
+}
+
+.contacts__input{
+margin-top: 20px;
 }
 
 .form__button{
@@ -52,4 +63,15 @@
         margin-bottom: 0;
     }
 }
+
+.contacts__button{
+    display: inline-block;
+    cursor: pointer;
+
+    width: 60px;
+    height: 24px;
+    margin-left: 16px;
+    border-color: rgb(3, 58, 58);
+}
+
 
